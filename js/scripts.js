@@ -61,21 +61,21 @@ $(document).ready(function() {
 		$(this).addClass("buttonactive").siblings().removeClass("buttonactive")
 	});
 	// SELECTION
-	$("#work_1").click(function() {
-	  $(".work").not(".work_1").stop().fadeTo("normal",0.1);
-	  $(".work_1").stop().fadeTo("normal",1);
+	$("#minecraft").click(function() {
+		$(".work").not(".minecraft").stop().fadeTo("normal",0.1);
+		$(".minecraft").stop().fadeTo("normal",1);
 	});
-	
-	$("#work_2").click(function() {
-	  $(".work").not(".work_2").stop().fadeTo("normal",0.1);
-	  $(".work_2").stop().fadeTo("normal",1);
+
+	$("#roblox").click(function() {
+	  $(".work").not(".roblox").stop().fadeTo("normal",0.1);
+	  $(".roblox").stop().fadeTo("normal",1);
 	});
-	
-	$("#work_3").click(function() {
-	  $(".work").not(".work_3").stop().fadeTo("normal",0.1);
-	  $(".work_3").stop().fadeTo("normal",1);
-	});
-	
+
+	$("#fallout").click(function() {
+		$(".work").not(".fallout").stop().fadeTo("normal",0.1);
+		$(".fallout").stop().fadeTo("normal",1);
+	  });
+
 	$("#work_all").click(function() {
 	  $(".work").stop().fadeTo("normal",1);
 	});
